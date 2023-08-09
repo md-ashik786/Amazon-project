@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="head"></div>
+
+
+    <script>
+        let id = document.getElementById('head')
+        console.log(id,"head");
+        const element = document.createElement('h1');
+        const main = document.createTextNode(
+            'Ashik',
+        )
+        console.log(main);
+        element.appendChild(main);
+        console.log(element,"element");
+         document.getElementById('head').innerHTML = element.innerHTML
+    </script>
+</body>
+</html>

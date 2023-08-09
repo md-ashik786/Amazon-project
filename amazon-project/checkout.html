@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/checkoutpage.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header-main">
+      <a class="img-container" href="Home.html" >
+        <img src="images/amazon-logo.png" alt="" class="img1" />
+      </a>
+      <div class="checkout-container">
+        Checkout(<span class="inside-checkout">3 items</span>)
+      </div>
+      <div class="img-container">
+        <img src="images/icons/checkout-lock-icon.png" alt="" class="img2" />
+      </div>
+    </header>
+    <!-- Grid  -->
+    <div class="heading">Review your order</div>
+    <div class="grid-main">
+      <div class="left">
+      <!-- <div class="container">
+        <div class="box">
+          <div class="date">Delivery date:<span>Tuesday,August10</span></div>
+          <div class="inside-box-grid">
+            <div class="product-img">
+              <img src="images/products/6-piece-white-dinner-plate-set.jpg" alt="" class="img" />
+            </div>
+            <div class="product-details">
+              <p class="name">Black and Gray Athletic Cotton Socks - 6 Pairs</p>
+              <p class="price">$10.90</p>
+              <p>
+                <span><span>Quantity: </span><span>2</span></span> 
+                <a class="update">Update</a>
+                <a class="Delete">Delete</a>
+              </p>
+            </div>
+            <div class="delivery-option">
+              <div class="name">Choose a delivery option:</div>
+              <div class="first-radio">
+                <input type="radio" id="option" name="radio">
+                <div class="deliver-text">
+                  <p class="Date">Tuesday, June 21</p>
+                  <p class="status">FREE Shipping</p>
+                </div>
+              </div>
+              <div class="first-radio">
+                <input type="radio" id="option"
+                name="radio">
+                <div class="deliver-text">
+                  <p class="Date">Tuesday, June 21</p>
+                  <p class="status">FREE Shipping</p>
+                </div>
+              </div>
+              <div class="first-radio">
+                <input type="radio" id="option"
+                name="radio">
+                <div class="deliver-text">
+                  <p class="Date">Tuesday, June 21</p>
+                  <p class="status">FREE Shipping</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="order-details">
+        <div class="summary">Order Summary</div>
+        <div class="items">
+            <p class="item">Items (3):</p>
+            <p class="rate1"></p>
+        </div>
+        <div class="items">
+            <p class="item">Shipping & handling:</p>
+            <p class="deliver-rate">$0.00</p>
+        </div>
+        <div class="items-before-tax">
+            <p class="item">Total before tax:</p>
+            <div class="before-tax"></div>
+        </div>
+        <div class="items-tax">
+            <p class="item">Estimated tax (10%):</p>
+            <p class="item-tax-percentage"></p>
+        </div>
+        <div class="order-total">
+            <p class="item">Order total:</p>
+            <p class="order-rate"></p>
+        </div>
+        <div class="order-container">
+          <button class="order-button">Place Your Order</button>
+        </div>
+        <button class="clear">Clear All From Cart </button>
+    </div>
+</div>
+    </div>
+    <script type="module" src="scripts/chechout.js"></script>
+  </body>
+</html>

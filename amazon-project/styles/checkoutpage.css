@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-main {
+    padding: 1.1rem 8rem 1.1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2rem; 
+    background-color: rgb(206, 195, 195);
+}
+
+.header-main .img-container {
+    object-fit: contain;
+}
+
+.header-main .img1 {
+    width: 6rem;
+}
+
+.header-main .checkout-container {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.header-main .checkout-container .inside-checkout {
+    color: rgb(0, 113, 133);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 4.5rem 11rem 0 11rem;
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 25rem;
+    padding: 2rem 11rem;
+    column-gap: 2rem;
+}
+
+.grid-main .container {
+    padding-bottom: 2rem;
+}
+
+.grid-main .box {
+    border: 1px solid black;
+    /* padding: 2rem; */
+}
+
+.grid-main .inside-box-grid {
+    display: grid;
+    grid-template-columns: 8rem 1fr 1fr;
+    column-gap: 1.3rem;
+    padding: 0 4rem 1rem 0;
+}
+
+.grid-main .first-radio {
+    display: grid;
+    grid-template-columns: 1.2rem 1fr;
+    column-gap: 0.2rem;
+    padding-bottom: 1rem;
+
+}
+
+.grid-main .date {
+    color: rgb(0, 118, 0);
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1.2rem 0 1rem 1rem;
+}
+
+.product-details .name {
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.product-details .price {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.product-details a {
+    color: rgb(1, 124, 182);
+    cursor: pointer;
+}
+
+.delivery-option .name {
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.first-radio .Date {
+    color: rgb(0, 118, 0);
+    font-weight: 500;
+    padding-bottom: 0.1rem;
+}
+
+.first-radio .status {
+    color: rgb(120, 120, 120);
+    font-size: 0.9rem;
+}
+
+.product-img {
+    padding: 0 1rem;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.product-img .img {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.order-details {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.order-details .summary {
+    font-weight: 700;
+    padding-bottom: 0.6rem;
+    font-size: 1.2rem;
+}
+
+.order-details .items,
+.items-tax,
+.items-before-tax,
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.order-details .items-tax {
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.order-details .rate {
+    text-align: right;
+}
+
+.items-before-tax .before-tax {
+    border-top: 1px solid rgb(195, 195, 195);
+    padding-top: 0.2rem;
+}
+
+.order-total {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 0.7rem 0;
+}
+
+.order-button,.clear{
+    width: 100%;
+    padding: 0.6rem 0;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 216, 20);
+    border: 1px solid rgb(252, 210, 0);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+
+.order-container {
+    padding: 1rem 0;
+}
+.updated-value{
+    width: 3rem;
+}
+.updateValue{
+    color: rgb(1, 124, 182);
+    cursor: pointer;
+    padding-left: 0.5rem;
+}
